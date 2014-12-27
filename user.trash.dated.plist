@@ -7,12 +7,12 @@
           <key>ProgramArguments</key>
           <array>
                     <string>osascript</string>
-                    <string>/path/to/dated_deleter.scpt</string>
+                    <string>/Library/Scripts/dated_deleter.scpt</string>
           </array>
           <key>StartCalendarInterval</key>
           <dict>
                     <key>Hour</key>
-                    <integer>0</integer>
+                    <integer>17</integer>
                     <key>Minute</key>
                     <integer>0</integer>
           </dict>
