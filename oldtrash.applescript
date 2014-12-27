@@ -1,3 +1,4 @@
+-- stolen from: https://discussions.apple.com/thread/3172966
 property keyPhrase : "Trashed on: "
 property securityLevel : 2 -- overwrites: 1=1-pass, 2=7-pass, 3=35-pass,  see man srm
 property daysToWait : 7
