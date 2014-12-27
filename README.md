@@ -4,7 +4,7 @@ OSX-EmptyTrash
 
 Apple's OSX does not have a mechanism to manage the trashcan. I found a simple and easy way over on the discussions.apple.com forum and turned it into this repository here on GitHub: https://github.com/Mausy5043/OSX-EmptyTrash. 
 
-This application helps to manage the trash. An Applescript is offered that allows one to remove old files from the trash on a regular basis. Once a day (default: 17:00) the Trash is checked. Files that have been in the trash for longer that the preconfigured amount of time (default:7 days) are automagically removed (default: 7-pass overwrite). A .plist file is available to automate the task by adding it as a LaunchAgent.
+OSX-EmptyTrash helps to manage the trash. An Applescript is offered that allows one to remove old files from the trash on a regular basis. Once a day (default: 17:00) the Trash is checked. Files that have been in the trash for longer that the preconfigured amount of time (default:7 days) are automagically removed (default: 7-pass overwrite). A .plist file is available to automate the task by adding it as a LaunchAgent.
 
 The code was taken from the Apple Discussions forum: https://discussions.apple.com/thread/3172966
 
