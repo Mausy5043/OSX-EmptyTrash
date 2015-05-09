@@ -18,6 +18,6 @@ The code was taken from the Apple Discussions forum: https://discussions.apple.c
 >
 > Two caveats:
 >
-> 1. if you recover a file from the trash and then accidentally delete it again, it may be deleted next pass through unless you delete the key phrase from the spotlight comments.  you can do that in the Finder get info window.
+> 1. if you recover a file from the trash and then accidentally delete it again, it may be deleted next pass through unless you delete the key phrase from the spotlight comments.  you can do that in the Finder Get Info (⌘ + i) window.
 >
 > 2. I noticed in testing that if I copy a file, run the deleter on it, delete it, and then copy the same file again for a second test, spotlight remembers the comments applied to the first file.  Somehow Spotlight recognizes that the new copy is identical to the old copy and retains information from the old - completely unexpected.  This might be an issue in odd cases if you do lots of file duplicating; if so we'll need to add in a routine that deletes the key phrase from spotlight comments before the file gets deleted.
