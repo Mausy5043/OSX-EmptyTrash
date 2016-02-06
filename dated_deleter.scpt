@@ -13,6 +13,7 @@ tell application "Finder"
                     try
   -- check dates in a try block in case of weirdness)
                               if my checkDate(trashedDate) then
+                                        log thisFile
                                         set trashmeFiles to trashmeFiles & " " & my makePosix(thisFile as alias)
                               end if
                     end try
