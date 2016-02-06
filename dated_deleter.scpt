@@ -70,6 +70,8 @@ on checkDate(d)
 	log d
 	log n
 	log (date d) ≤ (date n)
+	
+	return (date d) ≤ (date n)
 	-- log (date d) ≤ short date string of ((current date) - daysToWait * days)
 	-- return (date d) ≤ short date string of ((current date) - daysToWait * days)
 end checkDate
