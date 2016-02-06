@@ -66,5 +66,12 @@ on makePosix(f)
 end makePosix
  
 on checkDate(d)
-          return (date d) ≤ short date string of ((current date) - daysToWait * days)
+	set n to short date string of ((current date) - daysToWait * days)
+	log d
+	log n
+	log (date d) ≤ (date n)
+	
+	return (date d) ≤ (date n)
+	-- log (date d) ≤ short date string of ((current date) - daysToWait * days)
+	-- return (date d) ≤ short date string of ((current date) - daysToWait * days)
 end checkDate
