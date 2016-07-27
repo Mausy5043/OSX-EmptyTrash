@@ -1,8 +1,11 @@
 OSX-EmptyTrash
 ==============
-#### While Windows has a configurable size limit imposed on the trashbin OSX has nothing. 
+#### While Windows has a configurable size limit imposed on the trashbin OSX (upto OSX 10.11 "El Capitan") has nothing. 
 
 Apple's OSX does not have a mechanism to manage the trashcan. I found a simple and easy way over on the discussions.apple.com forum and turned it into this repository here on GitHub: https://github.com/Mausy5043/OSX-EmptyTrash. 
+As of macOS Sierra Apple _does_ include a way to keep your trashbin in check. The following is taken from Apple's macOS preview announcement (retrieved in JUL2016):
+
+> macOS Sierra can keep unneeded files from cluttering up your Mac. It reminds you to delete used app installers, and clears out duplicate downloads, caches, logs, and other unnecessary stuff. So you can be free of junk. It will even get rid of it for you, deleting items that have been in the Trash for 30 days.
 
 OSX-EmptyTrash helps to manage the trash. An Applescript is offered that allows one to remove old files from the trash on a regular basis. Once a day (default: 17:00) the Trash is checked. Files that have been in the trash for longer that the preconfigured amount of time (default:7 days) are automagically removed (default: 7-pass overwrite). A .plist file is available to automate the task by adding it as a LaunchAgent.
 
